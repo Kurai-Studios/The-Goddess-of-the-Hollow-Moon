@@ -59,5 +59,14 @@ TagManager:
   - name: WalkBehind
     uniqueID: 2799902333
     locked: 0
+  - name: RT
+    uniqueID: 3495602973
+    locked: 0
+  - name: YT
+    uniqueID: 1425129059
+    locked: 0
+  - name: GT
+    uniqueID: 4255718765
+    locked: 0
   m_RenderingLayers:
   - Default
