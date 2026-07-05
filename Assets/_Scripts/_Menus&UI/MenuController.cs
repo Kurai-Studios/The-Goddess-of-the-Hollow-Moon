@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class MenuController : MonoBehaviour
 {
@@ -10,10 +9,10 @@ public class MenuController : MonoBehaviour
         menuCanvas.SetActive(false);
     }
 
-
+    
     void Update()
     {
-        if (Keyboard.current.tabKey.wasPressedThisFrame)
+        if (Input.GetKeyDown(KeyCode.Tab))
             menuCanvas.SetActive(!menuCanvas.activeSelf);
     }
 

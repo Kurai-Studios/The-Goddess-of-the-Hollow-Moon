@@ -5,7 +5,6 @@ public class PlayerMovement : MonoBehaviour
 {
     [Header("Move Settings")]
     [SerializeField] private float moveSpeed = 5f;
-    [SerializeField] private float runSpeed = 8f;
 
     private Rigidbody2D rb;
     private Animator animator;
@@ -20,8 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        bool isRunning = Keyboard.current.leftShiftKey.isPressed;
-        rb.linearVelocity = moveInput * (isRunning ? runSpeed : moveSpeed);
+        rb.linearVelocity = moveInput * moveSpeed;
     }
 
     public void Move(InputAction.CallbackContext context)
