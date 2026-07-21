@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e664038c12718b4ea82c634e94011a8, type: 3}
+  m_Name: Sleeping
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
+  npcName: RedPanda
+  npcPortrait: {fileID: -6819392146486278225, guid: 5de373e0bdf7e4b4588ba3e3136d71e3, type: 3}
+  dialogueLines:
+  - ZzZzzz...
+  autoProgressLines: 
+  autoProgressDelay: 1.5
+  typingSpeed: 0.05
