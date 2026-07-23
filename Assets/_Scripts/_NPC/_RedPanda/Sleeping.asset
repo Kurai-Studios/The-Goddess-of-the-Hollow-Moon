@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e664038c12718b4ea82c634e94011a8, type: 3}
   m_Name: Sleeping
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
-  npcName: RedPanda
+  npcName: Red Panda
   npcPortrait: {fileID: -6819392146486278225, guid: 5de373e0bdf7e4b4588ba3e3136d71e3, type: 3}
   dialogueLines:
   - ZzZzzz...
